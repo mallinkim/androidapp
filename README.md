@@ -26,16 +26,16 @@
 
 1. Increase를 누를때마다 count의 숫자가 하나씩 오르고
 
-![w05 숫자 카운트](05_count_2)
+![w05 숫자 카운트](05_count_2.png)
 
 reset을 눌렀을 때 0으로 초기화
 
-![w05 카운트 리셋](05_count_1)
+![w05 카운트 리셋](05_count_1.png)
 
 
 2. start를 누르면 10밀리초 단위로 숫자가 올라가고
-![w05 스탑워치](05_stopwatch_2)
+![w05 스탑워치](05_stopwatch_2.png)
 
 stop을 누르면 중지, reset을 누르면 다시 00:00:00으로 초기화
 
-![w05 스탑워치 초기화](05_stopwatch_1)
+![w05 스탑워치 초기화](05_stopwatch_1.png)
