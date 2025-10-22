@@ -18,7 +18,7 @@
 
 다크모드 사용
 
-![w04 프로필과 다크모드](04_profile.png)
+![w04 프로필과 다크모드](readme_files/04_profile.png)
 
 
 
@@ -28,7 +28,7 @@
 
    reset을 눌렀을 때 0으로 초기화
 
-![w05 카운트](05_count.gif)
+![w05 카운트](readme_files/05_count.gif)
 
 
 
@@ -37,7 +37,7 @@
 
   stop을 누르면 중지, reset을 누르면 다시 00:00:00으로 초기화
   
-![w05 스탑워치](05_stopwatch.gif)
+![w05 스탑워치](readme_files/05_stopwatch.gif)
 
 
 > PS: 기존 스톱워치 코드는 10밀리초 딜레이 후 10씩 증가하는 방식이었으나, 실제 시간과 오차가 발생하여 chatgpt의 도움으로 시스템 시간을 기반으로 카운트하도록 변경함.
