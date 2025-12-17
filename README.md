@@ -108,17 +108,13 @@
 
 <table>
   <tr>
-    <td width="260" valign="top">
-      <img src="Pomodoro_calendar_color.png" width="240">
-    </td>
-    <td valign="top">
-      <ul>
-        <li><code>#B91C1C</code> - 4시간 이상</li>
-        <li><code>#DC2626</code> - 3시간 이상</li>
-        <li><code>#EF4444</code> - 2시간 이상</li>
-        <li><code>#F87171</code> - 1시간 이상</li>
-        <li><code>#FECACA</code> - 1시간 미만</li>
-      </ul>
+    <td><img src="readme_files/pomodoro/Pomodoro_calendar_color.png" width="200"/></td>
+    <td>
+      <code>#B91C1C</code> - 4시간 이상<br>
+      <code>#DC2626</code> - 3시간 이상<br>
+      <code>#EF4444</code> - 2시간 이상<br>
+      <code>#F87171</code> - 1시간 이상<br>
+      <code>#FECACA</code> - 1시간 미만
     </td>
   </tr>
 </table>
