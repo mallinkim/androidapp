@@ -72,7 +72,7 @@
 
 #### 타이머 설정
 
-집중 시간 (5~120분), 휴식 시간 (5~60분), 세트 수 (1~10세트) 설정 가능
+집중 시간 (5-120분), 휴식 시간 (5-60분), 세트 수 (1-10세트) 설정 가능
 
 +/- 버튼으로 5분 단위로 조절
 
@@ -106,11 +106,28 @@
 
 공부량에 따라 달력 색이 달라짐
 
-- ![#B91C1C](https://via.placeholder.com/15/B91C1C/B91C1C.png) 4시간 이상
-- ![#DC2626](https://via.placeholder.com/15/DC2626/DC2626.png) 3시간 이상
-- ![#EF4444](https://via.placeholder.com/15/EF4444/EF4444.png) 2시간 이상
-- ![#F87171](https://via.placeholder.com/15/F87171/F87171.png) 1시간 이상
-- ![#FECACA](https://via.placeholder.com/15/FECACA/FECACA.png) 1시간 미만
+<ul>
+  <li>
+    <span style="display:inline-block; width:14px; height:14px; background:#B91C1C; border-radius:4px;"></span>
+    <code>#B91C1C</code> - 4시간 이상
+  </li>
+  <li>
+    <span style="display:inline-block; width:14px; height:14px; background:#DC2626; border-radius:4px;"></span>
+    <code>#DC2626</code> - 3시간 이상
+  </li>
+  <li>
+    <span style="display:inline-block; width:14px; height:14px; background:#EF4444; border-radius:4px;"></span>
+    <code>#EF4444</code> - 2시간 이상
+  </li>
+  <li>
+    <span style="display:inline-block; width:14px; height:14px; background:#F87171; border-radius:4px;"></span>
+    <code>#F87171</code> - 1시간 이상
+  </li>
+  <li>
+    <span style="display:inline-block; width:14px; height:14px; background:#FECACA; border-radius:4px;"></span>
+    <code>#FECACA</code> - 1시간 미만
+  </li>
+</ul>
 
 ![기록 화면](readme_files/Pomodoro_record.gif)
 
