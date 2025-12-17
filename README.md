@@ -108,26 +108,21 @@
 
 <table>
   <tr>
-    <td width="20" bgcolor="#B91C1C"></td>
-    <td><code>#B91C1C</code> - 4시간 이상</td>
-  </tr>
-  <tr>
-    <td bgcolor="#DC2626"></td>
-    <td><code>#DC2626</code> - 3시간 이상</td>
-  </tr>
-  <tr>
-    <td bgcolor="#EF4444"></td>
-    <td><code>#EF4444</code> - 2시간 이상</td>
-  </tr>
-  <tr>
-    <td bgcolor="#F87171"></td>
-    <td><code>#F87171</code> - 1시간 이상</td>
-  </tr>
-  <tr>
-    <td bgcolor="#FECACA"></td>
-    <td><code>#FECACA</code> - 1시간 미만</td>
+    <td width="260" valign="top">
+      <img src="Pomodoro_calendar_color.png" width="240">
+    </td>
+    <td valign="top">
+      <ul>
+        <li><code>#B91C1C</code> - 4시간 이상</li>
+        <li><code>#DC2626</code> - 3시간 이상</li>
+        <li><code>#EF4444</code> - 2시간 이상</li>
+        <li><code>#F87171</code> - 1시간 이상</li>
+        <li><code>#FECACA</code> - 1시간 미만</li>
+      </ul>
+    </td>
   </tr>
 </table>
+
 
 ![기록 화면](readme_files/Pomodoro_record.gif)
 
