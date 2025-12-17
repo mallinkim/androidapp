@@ -106,29 +106,28 @@
 
 공부량에 따라 달력 색이 달라짐
 
-<ul>
-  <li>
-    <span style="display:inline-block; width:14px; height:14px; background:#B91C1C; border-radius:4px; margin-right:6px;"></span>
-    <code>#B91C1C</code> - 4시간 이상
-  </li>
-  <li>
-    <span style="display:inline-block; width:14px; height:14px; background:#DC2626; border-radius:4px; margin-right:6px;"></span>
-    <code>#DC2626</code> - 3시간 이상
-  </li>
-  <li>
-    <span style="display:inline-block; width:14px; height:14px; background:#EF4444; border-radius:4px; margin-right:6px;"></span>
-    <code>#EF4444</code> - 2시간 이상
-  </li>
-  <li>
-    <span style="display:inline-block; width:14px; height:14px; background:#F87171; border-radius:4px; margin-right:6px;"></span>
-    <code>#F87171</code> - 1시간 이상
-  </li>
-  <li>
-    <span style="display:inline-block; width:14px; height:14px; background:#FECACA; border-radius:4px; margin-right:6px;"></span>
-    <code>#FECACA</code> - 1시간 미만
-  </li>
-</ul>
-
+<table>
+  <tr>
+    <td width="20" bgcolor="#B91C1C"></td>
+    <td><code>#B91C1C</code> - 4시간 이상</td>
+  </tr>
+  <tr>
+    <td bgcolor="#DC2626"></td>
+    <td><code>#DC2626</code> - 3시간 이상</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EF4444"></td>
+    <td><code>#EF4444</code> - 2시간 이상</td>
+  </tr>
+  <tr>
+    <td bgcolor="#F87171"></td>
+    <td><code>#F87171</code> - 1시간 이상</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FECACA"></td>
+    <td><code>#FECACA</code> - 1시간 미만</td>
+  </tr>
+</table>
 
 ![기록 화면](readme_files/Pomodoro_record.gif)
 
