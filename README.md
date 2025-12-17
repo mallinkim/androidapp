@@ -108,7 +108,7 @@
 
 <table>
   <tr>
-    <td><img src="readme_files/pomodoro/Pomodoro_calendar_color.png" width="200"/></td>
+    <td><img src="readme_files/Pomodoro_calendar_color.png" width="200"/></td>
     <td>
       <code>#B91C1C</code> - 4시간 이상<br>
       <code>#DC2626</code> - 3시간 이상<br>
