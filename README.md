@@ -61,3 +61,82 @@
 ![w06 버블게임](readme_files/06_bubblegame.gif)
 
 > ※ 중간 반복 구간 생략 후 시작과 끝부분 연결
+
+---
+
+### project - 뽀모도로 타이머 (기말 프로젝트)
+
+기말과제로 만든 뽀모도로 타이머 앱
+
+평소에 아날로그 뽀모도로 타이머를 쓰고 있었는데, 디지털로만 가능한 기능을 추가해서 만들어봄
+
+#### 타이머 설정
+
+집중 시간 (5~120분), 휴식 시간 (5~60분), 세트 수 (1~10세트) 설정 가능
+
++/- 버튼으로 5분 단위로 조절
+
+![타이머 설정](readme_files/Pomodoro_setting.gif)
+
+#### 타이머 실행
+
+원형 타이머로 남은 시간 표시
+
+집중 시간 끝나면 자동으로 휴식 시간으로 전환
+
+일시정지 / 재개 / 처음으로 돌아가기 가능
+
+![타이머 시작](readme_files/Pomodoro_timer_start.gif)
+
+#### 휴식 시간
+
+휴식 시간에는 초록색으로 표시
+
+휴식 건너뛰기 버튼으로 바로 다음 세트 시작 가능
+
+![휴식 시간](readme_files/Pomodoro_rest_start.gif)
+
+#### 기록 확인
+
+이번 주 공부량 막대그래프로 표시
+
+달력에서 날짜별 공부 기록 확인 가능
+
+날짜 클릭하면 해당 날짜의 세트 수, 총 집중 시간 팝업으로 표시
+
+공부량에 따라 달력 색이 달라짐
+
+- ![#B91C1C](https://via.placeholder.com/15/B91C1C/B91C1C.png) 4시간 이상
+- ![#DC2626](https://via.placeholder.com/15/DC2626/DC2626.png) 3시간 이상
+- ![#EF4444](https://via.placeholder.com/15/EF4444/EF4444.png) 2시간 이상
+- ![#F87171](https://via.placeholder.com/15/F87171/F87171.png) 1시간 이상
+- ![#FECACA](https://via.placeholder.com/15/FECACA/FECACA.png) 1시간 미만
+
+![기록 화면](readme_files/Pomodoro_record.gif)
+
+![달력](readme_files/Pomodoro_calendar.png)
+
+#### 패턴 분석
+
+모든 세트 완료 후 최근 7일 기록 분석
+
+평균 세트 수가 3 이상이면 시간 늘리기 추천
+
+평균 세트 수가 2 미만이면 시간 줄이기 추천
+
+추천 시간 바로 적용하거나 유지하기 선택 가능
+
+![패턴 분석](readme_files/Pomodoro_analysis.png)
+
+#### 알림 설정
+
+소리 / 무음 선택 가능
+
+![알림 설정](readme_files/Pomodoro_alarm.png)
+
+#### 사용한 기술
+
+- Jetpack Compose - UI 구현
+- Room Database - 공부 기록 저장
+- DataStore - 설정값 저장
+- ToneGenerator - 알림 소리
